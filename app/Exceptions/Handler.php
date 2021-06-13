@@ -14,6 +14,9 @@ use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Throwable;
 
+use Exception;
+use Illuminate\Auth\AuthenticationException;
+
 class Handler extends ExceptionHandler
 {
 
